@@ -1,16 +1,11 @@
 {config, lib, pkgs, ...}:
 
 {
-  programs = {
     home-manager.enable = true;
-    zsh = {
-      enable = true;
-      oh-my-zsh = {
-        enable = true;
-        plugins = [ "git" "sudo" "docker" ];
-        theme = "agnoster";
-      };
-    };
+  imports =
+    [ ./programs/zsh.nix
+    ];
+
   home.sessionVariables = {
     EDITOR = "${pkgs.emacs}/bin/emacsclient -t -a \"\"";
     VISUAL = "${pkgs.emacs}/bin/emacsclient -c -a \"${pkgs.emacs}/bin/emacs\"";
