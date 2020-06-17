@@ -1,7 +1,7 @@
 {config, lib, pkgs, ...}:
 
 {
-    home-manager.enable = true;
+  programs.home-manager.enable = true;
   imports =
     [ ./programs/zsh.nix
       ./programs/git.nix
