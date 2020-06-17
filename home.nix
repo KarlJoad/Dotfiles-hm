@@ -4,6 +4,7 @@
     home-manager.enable = true;
   imports =
     [ ./programs/zsh.nix
+      ./programs/git.nix
     ];
 
   home.sessionVariables = {
