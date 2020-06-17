@@ -6,6 +6,7 @@
     [ ./programs/zsh.nix
       ./programs/git.nix
       ./programs/email.nix
+      ./doc/manual.nix
     ];
 
   home.sessionVariables = {
