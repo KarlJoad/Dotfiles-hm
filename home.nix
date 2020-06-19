@@ -3,10 +3,10 @@
 {
   programs.home-manager.enable = true;
   imports =
-    [ ./programs/zsh.nix
-      ./programs/git.nix
-      ./programs/email.nix
-      ./doc/manual.nix
+    [ ./modules/zsh.nix
+      ./modules/git.nix
+      ./modules/email.nix
+      ./modules/doc.nix
     ];
 
   home.sessionVariables = {
