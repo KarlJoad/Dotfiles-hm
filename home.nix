@@ -6,6 +6,7 @@
     [ ./modules/zsh.nix
       ./modules/git.nix
       ./modules/email.nix
+      ./modules/xresources.nix
       ./modules/doc.nix
     ];
 
