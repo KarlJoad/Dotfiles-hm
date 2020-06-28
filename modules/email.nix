@@ -35,6 +35,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
         port = 587;
       };
       maildir.path = "Personal";
+      folders.drafts = "[Gmail]/Drafts";
+      folders.inbox = "Inbox";
+      folders.sent = "[Gmail]/Sent Mail";
+      folders.trash = "[Gmail]/Trash";
 
       mbsync = {
         enable = true;
@@ -88,6 +92,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
         port = 587;
       };
       maildir.path = "IIT";
+      folders.drafts = "[Gmail]/Drafts";
+      folders.inbox = "Inbox";
+      folders.sent = "[Gmail]/Sent Mail";
+      folders.trash = "[Gmail]/Trash";
 
       mbsync = {
         enable = true;
@@ -140,6 +148,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
         port = 587;
       };
       maildir.path = "ServerAdmin";
+      folders.drafts = "[Gmail]/Drafts";
+      folders.inbox = "Inbox";
+      folders.sent = "[Gmail]/Sent Mail";
+      folders.trash = "[Gmail]/Trash";
 
       mbsync = {
         enable = true;
