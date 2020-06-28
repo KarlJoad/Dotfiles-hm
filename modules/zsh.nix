@@ -24,5 +24,7 @@
       plugins = [ "git" "sudo" "docker" ];
       theme = "agnoster";
     };
+
+    envExtra = "eval \"$(direnv hook zsh)\"";
   };
 }
