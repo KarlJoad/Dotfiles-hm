@@ -4,6 +4,7 @@
   programs.home-manager.enable = true;
   imports =
     [ ./modules/zsh.nix
+      ./modules/emacs.nix
       ./modules/git.nix
       ./modules/email.nix
       ./modules/xresources.nix
