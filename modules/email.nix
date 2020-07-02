@@ -21,6 +21,7 @@ tls on
 tls_starttls on
 tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
   };
+  # programs.mu.enable = true;
 
   accounts.email = {
     maildirBasePath = "Mail";
