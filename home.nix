@@ -2,6 +2,7 @@
 
 {
   programs.home-manager.enable = true;
+  programs.home-manager.path = "/home/karl/Repos/home-manager";
   imports =
     [ ./modules/zsh.nix
       ./modules/emacs.nix
@@ -19,4 +20,5 @@
     # would break.
   };
 
+  home.enableDebugInfo = true;
 }
