@@ -45,8 +45,31 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
         create = "both";
         remove = "none";
         expunge = "both";
-        patterns = [ "*" "INBOX"
-                     "![Gmail]*" "[Gmail]/Sent Mail" "[Gmail]/Starred" "[Gmail]/Trash" "[Gmail]/Drafts" "[Gmail]/All Mail" ];
+        groups.personal = {
+          channels = {
+            inbox = {
+              masterPattern = "";
+              slavePattern = "";
+            };
+            sent = {
+              masterPattern = config.accounts.email.accounts.Personal.folders.sent;
+              slavePattern = "Sent";
+            };
+            trash = {
+              masterPattern = config.accounts.email.accounts.Personal.folders.trash;
+              slavePattern = "Trash";
+            };
+            starred = {
+              masterPattern = "[Gmail]/Starred";
+              slavePattern = "Starred";
+            };
+            drafts = {
+              masterPattern = config.accounts.email.accounts.Personal.folders.drafts;
+              slavePattern = "Drafts";
+            };
+          };
+        };
+
         extraConfig.account = {
           PipelineDepth = 50;
           AuthMechs = "LOGIN";
@@ -102,8 +125,50 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
         create = "both";
         remove = "none";
         expunge = "both";
-        patterns = [ "*" "INBOX"
-                     "![Gmail]*" "[Gmail]/Sent Mail" "[Gmail]/Starred" "[Gmail]/Trash" "[Gmail]/Drafts" "[Gmail]/All Mail" ];
+        groups.IIT = {
+          channels = {
+            inbox = {
+              masterPattern = "";
+              slavePattern = "";
+            };
+            sent = {
+              masterPattern = config.accounts.email.accounts.IIT.folders.sent; # "[Gmail]/Sent Mail";
+              slavePattern = "Sent";
+            };
+            trash = {
+              masterPattern = config.accounts.email.accounts.IIT.folders.trash; # "[Gmail]/Trash";
+              slavePattern = "Trash";
+            };
+            starred = {
+              masterPattern = "[Gmail]/Starred";
+              slavePattern = "Starred";
+            };
+            drafts = {
+              masterPattern = config.accounts.email.accounts.IIT.folders.drafts; # "[Gmail]/Drafts";
+              slavePattern = "Drafts";
+            };
+            triangle = {
+              masterPattern = "Triangle";
+              slavePattern = "Triangle";
+            };
+            coterminal = {
+              masterPattern = "Co-Terminal";
+              slavePattern = "Co-Terminal";
+            };
+            github = {
+              masterPattern = "GitHub";
+              slavePattern = "GitHub";
+            };
+            blackboard= {
+              masterPattern = "BlackBoard Submissions";
+              slavePattern = "BlackBoard_Submissions";
+            };
+            postOffice= {
+              masterPattern = "Post Office";
+              slavePattern = "Post_Office";
+            };
+          };
+        };
         extraConfig.account = {
           PipelineDepth = 50;
           AuthMechs = "LOGIN";
@@ -158,8 +223,30 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
         create = "both";
         remove = "none";
         expunge = "both";
-        patterns = [ "*" "INBOX"
-                     "![Gmail]*" "[Gmail]/Sent Mail" "[Gmail]/Starred" "[Gmail]/Trash" "[Gmail]/Drafts" "[Gmail]/All Mail" ];
+        groups.ServerAdmin = {
+          channels = {
+            inbox = {
+              masterPattern = "";
+              slavePattern = "";
+            };
+            sent = {
+              masterPattern = config.accounts.email.accounts.ServerAdmin.folders.sent;
+              slavePattern = "Sent";
+            };
+            trash = {
+              masterPattern = config.accounts.email.accounts.ServerAdmin.folders.trash;
+              slavePattern = "Trash";
+            };
+            starred = {
+              masterPattern = "[Gmail]/Starred";
+              slavePattern = "Starred";
+            };
+            drafts = {
+              masterPattern = config.accounts.email.accounts.ServerAdmin.folders.drafts;
+              slavePattern = "Drafts";
+            };
+          };
+        };
         extraConfig.account = {
           PipelineDepth = 50;
           AuthMechs = "LOGIN";
