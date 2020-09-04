@@ -284,10 +284,13 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
 
   services.mbsync = {
     enable = true;
-    # description = "mbsync Mailbox Synchronization Service";
+    description = "mbsync Mailbox Synchronization Service";
+    # Have to use /run/current-system/... because I am running the unstable
+    # version of mu, because mu 1.2 is out of date, and in stable.
+    # I can switch to ${pkgs.mu} once NixOS 20.09 comes out.
     postExec = "/run/current-system/sw/bin/mu index";
     # postExec = "${pkgs.mu}/bin/mu index";
-    frequency = "*-*-* *:0/10"; # Run this service every 10 minutes.
+    frequency = "*-*-* *:0/5"; # Run this service every 5 minutes.
     verbose = true;
   };
 
