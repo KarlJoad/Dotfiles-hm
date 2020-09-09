@@ -1,5 +1,3 @@
-{ pkgs ? import <nixpkgs> {}, ... }:
-
 {
-  config.allowUnfree = true;
+  allowUnfree = true;
 }
