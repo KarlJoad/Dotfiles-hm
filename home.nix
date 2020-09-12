@@ -6,6 +6,7 @@
   imports =
     [ ./modules/zsh.nix
       ./modules/emacs.nix
+      ./modules/vim.nix
       ./modules/git.nix
       ./modules/email.nix
       ./modules/xresources.nix
