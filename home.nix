@@ -9,6 +9,7 @@
       ./modules/git.nix
       ./modules/email.nix
       ./modules/xresources.nix
+      ./modules/gtk.nix
       ./modules/doc.nix
     ];
 
