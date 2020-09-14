@@ -168,6 +168,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               masterPattern = "Martial Arts Club";
               slavePattern = "MartialArtsClub";
             };
+            studyAbroad = {
+              masterPattern = "Study Abroad";
+              slavePattern = "Study_Abroad-Lund";
+            };
             github = {
               masterPattern = "GitHub";
               slavePattern = "GitHub";
