@@ -164,6 +164,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               masterPattern = "Co-Terminal";
               slavePattern = "Co-Terminal";
             };
+            martialArtsClub = {
+              masterPattern = "Martial Arts Club";
+              slavePattern = "MartialArtsClub";
+            };
             github = {
               masterPattern = "GitHub";
               slavePattern = "GitHub";
