@@ -156,6 +156,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               masterPattern = "Camras";
               slavePattern = "Camras";
             };
+            cyberhawks = {
+              masterPattern = "CyberHawks";
+              slavePattern = "CyberHawks";
+            };
             coterminal = {
               masterPattern = "Co-Terminal";
               slavePattern = "Co-Terminal";
