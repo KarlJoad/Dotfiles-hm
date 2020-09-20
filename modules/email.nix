@@ -176,6 +176,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               masterPattern = "GitHub";
               slavePattern = "GitHub";
             };
+            tauBetaPi = {
+              masterPattern = "Tau Beta Pi";
+              slavePattern = "TauBetaPi";
+            };
             blackboard= {
               masterPattern = "BlackBoard Submissions";
               slavePattern = "BlackBoard_Submissions";
