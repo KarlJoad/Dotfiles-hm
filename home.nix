@@ -12,6 +12,7 @@
       ./modules/xresources.nix
       ./modules/gtk.nix
       ./modules/doc.nix
+      ./modules/kdeconnect.nix
     ];
 
   home.sessionVariables = {
