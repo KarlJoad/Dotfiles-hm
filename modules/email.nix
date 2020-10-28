@@ -21,7 +21,6 @@ tls on
 tls_starttls on
 tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
   };
-  # programs.mu.enable = true;
 
   accounts.email = {
     maildirBasePath = "Mail";
@@ -84,6 +83,8 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
           SubFolders = "Verbatim";
         };
       };
+
+      mu.enable = true;
 
       msmtp = {
         enable = true;
@@ -180,9 +181,13 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               masterPattern = "Tau Beta Pi";
               slavePattern = "TauBetaPi";
             };
-            blackboard= {
+            blackboard = {
               masterPattern = "BlackBoard Submissions";
               slavePattern = "BlackBoard_Submissions";
+            };
+            googleForms = {
+              masterPattern = "Google Forms";
+              slavePattern = "Google_Forms";
             };
             postOffice= {
               masterPattern = "Post Office";
@@ -203,6 +208,8 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
           SubFolders = "Verbatim";
         };
       };
+
+      mu.enable = true;
 
       msmtp = {
         enable = true;
@@ -281,6 +288,8 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
           SubFolders = "Verbatim";
         };
       };
+
+      mu.enable = true;
 
       msmtp = {
         enable = true;
