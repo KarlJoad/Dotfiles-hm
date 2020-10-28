@@ -15,7 +15,7 @@
 
     font = {
       package = null;
-      name = "Sans Serif 10";
+      name = "Noto Sans, 10";
     };
 
     gtk2.extraConfig = ''
