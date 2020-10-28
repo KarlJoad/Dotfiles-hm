@@ -16,6 +16,14 @@
       ./modules/obs.nix
     ];
 
+  # # Install packages to /etc/profiles symlink instead. This allows hm
+  # # packages to be shared to a VM if nixos-rebuild build-vm is used.
+  # useUserPackages = true;
+  # # Instead of using a private pkgs instance that is configured via the
+  # # home-manager.users.<name>.nixpkgs options, use global pkgs configured via
+  # # the system level nixpkgs options.
+  # useGlobalPkgs = true;
+
   home.sessionVariables = {
     EDITOR = "${pkgs.emacs}/bin/emacsclient -t -a \"\"";
     VISUAL = "${pkgs.emacs}/bin/emacsclient -c -a \"${pkgs.emacs}/bin/emacs\"";
