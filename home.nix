@@ -13,6 +13,7 @@
       ./modules/gtk.nix
       ./modules/doc.nix
       ./modules/kdeconnect.nix
+      ./modules/obs.nix
     ];
 
   home.sessionVariables = {
