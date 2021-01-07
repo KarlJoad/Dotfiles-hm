@@ -197,6 +197,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               masterPattern = "Post Office";
               slavePattern = "Post_Office";
             };
+            financialAid = {
+              masterPattern = "Office of Financial Aid";
+              slavePattern = "FinAid";
+            };
           };
         };
         extraConfig.account = {
