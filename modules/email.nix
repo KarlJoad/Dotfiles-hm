@@ -149,6 +149,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               masterPattern = config.accounts.email.accounts.IIT.folders.drafts; # "[Gmail]/Drafts";
               slavePattern = "Drafts";
             };
+            outOfSight = {
+              masterPattern = "Keep but Out of Sight";
+              slavePattern = "Keep_but_Out_of_Sight";
+            };
             triangle = {
               masterPattern = "Triangle";
               slavePattern = "Triangle";
