@@ -193,7 +193,7 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               masterPattern = "Google Forms";
               slavePattern = "Google_Forms";
             };
-            postOffice= {
+            postOffice = {
               masterPattern = "Post Office";
               slavePattern = "Post_Office";
             };
