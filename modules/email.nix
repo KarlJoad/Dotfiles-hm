@@ -49,24 +49,24 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
         groups.personal = {
           channels = {
             inbox = {
-              masterPattern = "";
-              slavePattern = "";
+              farPattern = "";
+              nearPattern = "";
             };
             sent = {
-              masterPattern = config.accounts.email.accounts.Personal.folders.sent;
-              slavePattern = "Sent";
+              farPattern = config.accounts.email.accounts.Personal.folders.sent;
+              nearPattern = "Sent";
             };
             trash = {
-              masterPattern = config.accounts.email.accounts.Personal.folders.trash;
-              slavePattern = "Trash";
+              farPattern = config.accounts.email.accounts.Personal.folders.trash;
+              nearPattern = "Trash";
             };
             starred = {
-              masterPattern = "[Gmail]/Starred";
-              slavePattern = "Starred";
+              farPattern = "[Gmail]/Starred";
+              nearPattern = "Starred";
             };
             drafts = {
-              masterPattern = config.accounts.email.accounts.Personal.folders.drafts;
-              slavePattern = "Drafts";
+              farPattern = config.accounts.email.accounts.Personal.folders.drafts;
+              nearPattern = "Drafts";
             };
           };
         };
@@ -131,76 +131,76 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
         groups.IIT = {
           channels = {
             inbox = {
-              masterPattern = "";
-              slavePattern = "";
+              farPattern = "";
+              nearPattern = "";
             };
             sent = {
-              masterPattern = config.accounts.email.accounts.IIT.folders.sent; # "[Gmail]/Sent Mail";
-              slavePattern = "Sent";
+              farPattern = config.accounts.email.accounts.IIT.folders.sent; # "[Gmail]/Sent Mail";
+              nearPattern = "Sent";
             };
             trash = {
-              masterPattern = config.accounts.email.accounts.IIT.folders.trash; # "[Gmail]/Trash";
-              slavePattern = "Trash";
+              farPattern = config.accounts.email.accounts.IIT.folders.trash; # "[Gmail]/Trash";
+              nearPattern = "Trash";
             };
             starred = {
-              masterPattern = "[Gmail]/Starred";
-              slavePattern = "Starred";
+              farPattern = "[Gmail]/Starred";
+              nearPattern = "Starred";
             };
             drafts = {
-              masterPattern = config.accounts.email.accounts.IIT.folders.drafts; # "[Gmail]/Drafts";
-              slavePattern = "Drafts";
+              farPattern = config.accounts.email.accounts.IIT.folders.drafts; # "[Gmail]/Drafts";
+              nearPattern = "Drafts";
             };
             outOfSight = {
-              masterPattern = "Keep but Out of Sight";
-              slavePattern = "Keep_but_Out_of_Sight";
+              farPattern = "Keep but Out of Sight";
+              nearPattern = "Keep_but_Out_of_Sight";
             };
             triangle = {
-              masterPattern = "Triangle";
-              slavePattern = "Triangle";
+              farPattern = "Triangle";
+              nearPattern = "Triangle";
             };
             camras = {
-              masterPattern = "Camras";
-              slavePattern = "Camras";
+              farPattern = "Camras";
+              nearPattern = "Camras";
             };
             cyberhawks = {
-              masterPattern = "CyberHawks";
-              slavePattern = "CyberHawks";
+              farPattern = "CyberHawks";
+              nearPattern = "CyberHawks";
             };
             coterminal = {
-              masterPattern = "Co-Terminal";
-              slavePattern = "Co-Terminal";
+              farPattern = "Co-Terminal";
+              nearPattern = "Co-Terminal";
             };
             martialArtsClub = {
-              masterPattern = "Martial Arts Club";
-              slavePattern = "MartialArtsClub";
+              farPattern = "Martial Arts Club";
+              nearPattern = "MartialArtsClub";
             };
             studyAbroad = {
-              masterPattern = "Study Abroad";
-              slavePattern = "Study_Abroad-Lund";
+              farPattern = "Study Abroad";
+              nearPattern = "Study_Abroad-Lund";
             };
             github = {
-              masterPattern = "GitHub";
-              slavePattern = "GitHub";
+              farPattern = "GitHub";
+              nearPattern = "GitHub";
             };
             tauBetaPi = {
-              masterPattern = "Tau Beta Pi";
-              slavePattern = "TauBetaPi";
+              farPattern = "Tau Beta Pi";
+              nearPattern = "TauBetaPi";
             };
             blackboard = {
-              masterPattern = "BlackBoard Submissions";
-              slavePattern = "BlackBoard_Submissions";
+              farPattern = "BlackBoard Submissions";
+              nearPattern = "BlackBoard_Submissions";
             };
             googleForms = {
-              masterPattern = "Google Forms";
-              slavePattern = "Google_Forms";
+              farPattern = "Google Forms";
+              nearPattern = "Google_Forms";
             };
             postOffice = {
-              masterPattern = "Post Office";
-              slavePattern = "Post_Office";
+              farPattern = "Post Office";
+              nearPattern = "Post_Office";
             };
             financialAid = {
-              masterPattern = "Office of Financial Aid";
-              slavePattern = "FinAid";
+              farPattern = "Office of Financial Aid";
+              nearPattern = "FinAid";
             };
           };
         };
@@ -263,24 +263,24 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
         groups.ServerAdmin = {
           channels = {
             inbox = {
-              masterPattern = "";
-              slavePattern = "";
+              farPattern = "";
+              nearPattern = "";
             };
             sent = {
-              masterPattern = config.accounts.email.accounts.ServerAdmin.folders.sent;
-              slavePattern = "Sent";
+              farPattern = config.accounts.email.accounts.ServerAdmin.folders.sent;
+              nearPattern = "Sent";
             };
             trash = {
-              masterPattern = config.accounts.email.accounts.ServerAdmin.folders.trash;
-              slavePattern = "Trash";
+              farPattern = config.accounts.email.accounts.ServerAdmin.folders.trash;
+              nearPattern = "Trash";
             };
             starred = {
-              masterPattern = "[Gmail]/Starred";
-              slavePattern = "Starred";
+              farPattern = "[Gmail]/Starred";
+              nearPattern = "Starred";
             };
             drafts = {
-              masterPattern = config.accounts.email.accounts.ServerAdmin.folders.drafts;
-              slavePattern = "Drafts";
+              farPattern = config.accounts.email.accounts.ServerAdmin.folders.drafts;
+              nearPattern = "Drafts";
             };
           };
         };
