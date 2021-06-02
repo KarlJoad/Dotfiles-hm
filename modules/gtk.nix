@@ -9,7 +9,7 @@
     };
 
     iconTheme = {
-      package = pkgs.kdeFrameworks.breeze-icons;
+      package = pkgs.breeze-icons;
       name = "breeze-dark";
     };
 
