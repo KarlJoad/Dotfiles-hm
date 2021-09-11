@@ -1,7 +1,7 @@
 { config, lib, pkgs, ...}:
 
 {
-  programs.emacs.enable = true;
+  programs.emacs.enable = false;
 
   services.emacs = {
     enable = false; # Whether to enable the emacs daemon
