@@ -3,6 +3,7 @@
 {
   programs.git = {
     enable = true;
+    package = pkgs.gitAndTools.gitFull; # Get access to ALL Git tools (send-mail)
     attributes = [ ];
     # delta.enable = true;
     lfs.enable = true;
