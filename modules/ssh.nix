@@ -15,6 +15,10 @@
         user = "centos";
         identityFile = "~/.ssh/id_rsa";
       };
+      "*.cs.northwestern.edu" = {
+        user = "kgh0080";
+        identityFile = "~/.ssh/nu";
+      };
     };
   };
 }
