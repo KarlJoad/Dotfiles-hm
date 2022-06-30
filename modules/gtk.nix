@@ -4,7 +4,7 @@
   gtk = {
     enable = true;
     theme = {
-      package = pkgs.gnome-breeze;
+      package = pkgs.libsForQt5.breeze-gtk;
       name = "Breeze-Dark";
     };
 
