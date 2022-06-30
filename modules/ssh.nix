@@ -24,6 +24,11 @@
         user = "kgh0080";
         identityFile = "~/.ssh/nu";
       };
+      leviathan = {
+        hostname = "leviathan.cs.northwestern.edu";
+        user = "kgh0080";
+        identityFile = "~/.ssh/nu";
+      };
     };
   };
 }
