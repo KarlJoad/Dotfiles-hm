@@ -15,6 +15,11 @@
         user = "centos";
         identityFile = "~/.ssh/id_rsa";
       };
+      fpga-f1 = {
+        hostname = "52.207.43.20";
+        user = "centos";
+        identityFile = "~/.ssh/id_rsa";
+      };
       "*.cs.northwestern.edu" = {
         user = "kgh0080";
         identityFile = "~/.ssh/nu";
