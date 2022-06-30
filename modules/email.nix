@@ -202,6 +202,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               farPattern = "Office of Financial Aid";
               nearPattern = "FinAid";
             };
+            nsf = {
+              farPattern = "NSF";
+              nearPattern = "NSF";
+            };
           };
         };
         extraConfig.account = {
