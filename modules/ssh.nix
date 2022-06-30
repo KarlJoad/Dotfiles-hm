@@ -33,6 +33,11 @@
         user = "kgh0080";
         identityFile = "~/.ssh/nu";
       };
+      moore = {
+        hostname = "moore.wot.eecs.northwestern.edu";
+        user = "kgh0080";
+        identityFile = "~/.ssh/nu";
+      };
     };
   };
 }
