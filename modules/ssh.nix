@@ -5,7 +5,7 @@
     enable = true;
     compression = true;
     matchBlocks = {
-      "ci" = {
+      ci = {
         hostname = "192.168.1.6";
         user = "root";
         identityFile = "~/.ssh/ci_rsa";
