@@ -29,6 +29,10 @@
         user = "kgh0080";
         identityFile = "~/.ssh/nu";
       };
+      "*.eecs.northwestern.edu" = {
+        user = "kgh0080";
+        identityFile = "~/.ssh/nu";
+      };
     };
   };
 }
