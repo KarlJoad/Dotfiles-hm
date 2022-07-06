@@ -194,10 +194,6 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               farPattern = "Google Forms";
               nearPattern = "Google_Forms";
             };
-            postOffice = {
-              farPattern = "Post Office";
-              nearPattern = "Post_Office";
-            };
             financialAid = {
               farPattern = "Office of Financial Aid";
               nearPattern = "FinAid";
