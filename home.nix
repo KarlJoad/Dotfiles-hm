@@ -17,6 +17,10 @@
       ./modules/obs.nix
     ];
 
+  home.packages = with pkgs; [
+    metals
+  ];
+
   home.username = "karl";
   home.homeDirectory = "/home/karl";
   home.sessionVariables = {
