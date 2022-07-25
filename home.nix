@@ -17,6 +17,7 @@
       ./modules/obs.nix
     ];
 
+  home.username = "karl";
   home.sessionVariables = {
     EDITOR = "${pkgs.emacs}/bin/emacsclient -t -a \"\"";
     VISUAL = "${pkgs.emacs}/bin/emacsclient -c -a \"${pkgs.emacs}/bin/emacs\"";
