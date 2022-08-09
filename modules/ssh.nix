@@ -5,6 +5,11 @@
     enable = true;
     compression = true;
     matchBlocks = {
+      website = {
+        hostname = "karl.hallsby.com";
+        user = "root";
+        identityFile = "~/.ssh/id_rsa";
+      };
       ci = {
         hostname = "192.168.1.6";
         user = "root";
