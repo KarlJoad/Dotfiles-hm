@@ -15,20 +15,10 @@
         user = "root";
         identityFile = "~/.ssh/ci_rsa";
       };
-      fpga-sim = {
-        hostname = "54.88.139.91";
-        user = "centos";
-        identityFile = "~/.ssh/id_rsa";
-      };
       fpga-dev = {
         hostname = "ec2-44-201-192-87.compute-1.amazonaws.com";
         user = "centos";
         identityFile = "~/.ssh/constellation-fpga.pem";
-      };
-      fpga-f1 = {
-        hostname = "52.207.43.20";
-        user = "centos";
-        identityFile = "~/.ssh/id_rsa";
       };
       "*.cs.northwestern.edu" = {
         user = "kgh0080";
