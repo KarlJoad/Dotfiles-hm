@@ -20,6 +20,11 @@
         user = "centos";
         identityFile = "~/.ssh/id_rsa";
       };
+      fpga-dev = {
+        hostname = "ec2-44-201-192-87.compute-1.amazonaws.com";
+        user = "centos";
+        identityFile = "~/.ssh/constellation-fpga.pem";
+      };
       fpga-f1 = {
         hostname = "52.207.43.20";
         user = "centos";
