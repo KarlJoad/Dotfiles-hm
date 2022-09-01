@@ -5,6 +5,11 @@
     enable = true;
     compression = true;
     matchBlocks = {
+      desktop-iit = {
+        hostname = "dhcp68.ssv1.iit.edu";
+        user = "karl";
+        identityFile = "~/.ssh/id_rsa";
+      };
       website = {
         hostname = "karl.hallsby.com";
         user = "root";
