@@ -72,6 +72,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               farPattern = "Academic_Orgs/ACM";
               nearPattern = "ACM";
             };
+            ieee = {
+              farPattern = "Academic_Orgs/IEEE";
+              nearPattern = "IEEE";
+            };
           };
         };
 
