@@ -68,6 +68,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               farPattern = config.accounts.email.accounts.Personal.folders.drafts;
               nearPattern = "Drafts";
             };
+            acm = {
+              farPattern = "Academic_Orgs/ACM";
+              nearPattern = "ACM";
+            };
           };
         };
 
