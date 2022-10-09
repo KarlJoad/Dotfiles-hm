@@ -210,6 +210,10 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt'';
               farPattern = "NSF";
               nearPattern = "NSF";
             };
+            phd = {
+              farPattern = "PhD";
+              nearPattern = "PhD";
+            };
           };
         };
         extraConfig.account = {
