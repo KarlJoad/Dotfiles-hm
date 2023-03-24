@@ -30,4 +30,5 @@
     # PATH is set like this because if $PATH is ever unset, the naive implementation
     # would break.
   };
+  home.stateVersion = "22.11";
 }
