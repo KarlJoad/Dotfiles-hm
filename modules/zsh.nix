@@ -11,7 +11,7 @@
       extended = true;
       ignoreDups = true;
       ignoreSpace = true;
-      path = ".zshhistfile";
+      path = "$HOME/.zshhistfile";
       size = 10000;
       save = 10000;
       share = true;
